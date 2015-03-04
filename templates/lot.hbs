@@ -26,8 +26,9 @@
 
 {{#each item in items itemController="item"}}
   <p>
-    {{item.name}}<br>
+    {{item.name}} ${{item.estimate}}<br>
     <img {{bind-attr src=item.photo}} width="20%" height="20%" alt="Logo">
+
     <button class="btn btn-xs btn-danger" {{action 'delete'}}>Delete</button>
   </p>
 {{/each}}
