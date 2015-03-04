@@ -1,0 +1,9 @@
+<h1>Lots</h1>
+
+<ul>
+  {{#each lot in model}}
+    <li>{{#link-to 'lot' lot}}{{lot.name}}{{/link-to}}</li>
+  {{/each}}
+</ul>
+
+{{#link-to 'new-lot' classNames="btn btn-primary"}}New Lot{{/link-to}}

@@ -1,0 +1,12 @@
+<h2>New Item</h2>
+
+<form>
+  <div class="form-group">
+    <label for="name">Item name:</label>
+    {{input value=name id="name" class="form-control"}}
+    <label for="photo">Link to Photo:</label>
+    {{input value=photo id="photo" class="form-control"}}
+  </div>
+
+  <button class="btn btn-primary" {{action "save"}}>Add your item</button>
+</form>
