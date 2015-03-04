@@ -6831,8 +6831,8 @@ input[type=number],
   border: none;
   border-radius: 0;
   -webkit-appearance: none;
-  -webkit-box-shadow: inset 0 -1px 0 #dddddd;
-  box-shadow: inset 0 -1px 0 #dddddd;
+  -webkit-box-shadow: inset 0 -1px 0 #D4AF37;
+  box-shadow: inset 0 -1px 0 #000;
   font-size: 16px;
 }
 textarea:focus,
@@ -6847,8 +6847,8 @@ input[type=number]:focus,
 [type=email].form-control:focus,
 [type=tel].form-control:focus,
 [contenteditable].form-control:focus {
-  -webkit-box-shadow: inset 0 -2px 0 #2196f3;
-  box-shadow: inset 0 -2px 0 #2196f3;
+  -webkit-box-shadow: inset 0 -2px 0 #D4AF37;
+  box-shadow: inset 0 -2px 0 #D4AF37;
 }
 textarea[disabled],
 textarea.form-control[disabled],
