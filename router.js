@@ -4,7 +4,6 @@ Auction.Router.map(function() {
     this.resource('new-item');
   });
   this.resource('new-lot');
-  this.resource('recent-items');
   this.resource('about');
   this.resource('contact', function() {
     this.resource('email');
