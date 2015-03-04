@@ -1,6 +1,18 @@
-Blogger
-=======
+# Auction
+This is an app that is a clone of Sotheby's website. It served as a good practice in using ember.
 
-A simple example app built with Ember.js. All dependencies are included.
+Clone repositry and start server
+```
+$ git clone https://github.com/alexkaufman06/auction
+$ python -m SimpleHTTPServer
+```
+Go to the url in your web browser: localhost:8000
 
-Because the app uses AJAX to load templates, you cannot open `index.html` from the `file://` protocol. Instead, you must start a web server to load your app. The easiest way to start a web server is to download [Mongoose](http://cesanta.com/mongoose.shtml), copy it into your project directory, and open it up. Alternatively, on a Mac, you can run `$ python -m SimpleHTTPServer` from your project directly, and then in your browser, visit http://0.0.0.0:8000.
+[View site here](http://alexkaufman06.github.io/auction/index.html)
+
+### Bug Reports:
+None known
+### Author:
+Alex Kaufman & Jay Sivakumaran
+#### License
+MIT

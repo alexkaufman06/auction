@@ -1,0 +1,17 @@
+body {
+  font-family: 'Lobster', cursive;
+}
+
+li {
+  font-size: 150%;
+}
+
+.navbar {
+  background-color: #000;
+}
+
+.top {
+  text-align: center;
+  color: #D4AF37;
+  font-size: 500%;
+}
