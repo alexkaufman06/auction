@@ -29,9 +29,15 @@
   <p>
     {{item.name}} ${{item.estimate}}<br>
     <img {{bind-attr src=item.photo}} width="20%" height="20%" alt="Logo">
-
+    <button class="btn btn-xs btn-primary" {{action 'details'}}>Details</button>
     <button class="btn btn-xs btn-danger" {{action 'delete'}}>Delete</button>
   </p>
+  {{#if item.isShowing}}
+    {{item.backstory}}
+    {{item.yearacquired}}
+    {{item.owner}}
+    {{item.description}}
+  {{/if}}
   <hr>
 {{/each}}
 

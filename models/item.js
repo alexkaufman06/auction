@@ -3,7 +3,7 @@ Auction.Item = DS.Model.extend({
   photo: DS.attr(),
   estimate: DS.attr(),
   backstory: DS.attr(),
-  year_acquired: DS.attr(),
+  yearacquired: DS.attr(),
   owner: DS.attr(),
   description: DS.attr(),
   lot: DS.belongsTo('lot', {async: true})
