@@ -1,12 +1,17 @@
 <div class='container'>
   <nav class='navbar navbar-default' role='navigation'>
-      <h1 class="top">Ostentatious Auction</h1>
+      <h1 class="top">O$tentat¢iou$ Auction</h1>
+    <ul class="nav navbar-nav navbar-left">
+      <li><img class="rotate" src="css/star.png" style="margin-left:20px;"></li>
+    </ul>
     <ul class='nav navbar-nav'>
       <li class="navvy">{{#link-to 'lots'}}Lots{{/link-to}}</li>
       <li>{{#link-to 'about'}}About{{/link-to}}</li>
       <li>{{#link-to 'contact'}}Contact{{/link-to}}</li>
     </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><img class="rotate" src="css/star.png"></li>
+    </ul>
   </nav>
-
   {{outlet}}
 </div>
